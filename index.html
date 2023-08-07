@@ -18,7 +18,9 @@
     <script src="eventos.js"></script>
     <script>
         function saludar() {
+            event.stopPropagation();
             alert("Hola!");
+            
         }
     </script>
 </body>
